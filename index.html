@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+      "
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Harry</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+      <div class="container">
+        <img
+          width="60px"
+          src="https://wallpapers.com/images/featured/hogwarts-crest-png-yvygdau19u8oo7tt.jpg"
+          alt=""
+        />
+        <h1 class="ms-3 section-title">Hogwarts</h1>
+        <button
+          class="navbar-toggler mb-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold me-2" id="sobrenos-menu">
+              <a class="nav-link" href="#sobre-nos">
+                <img
+                  class="me-2"
+                  src="./icons/escola.png"
+                  alt=""
+                  width="30px"
+                />
+                Sobre o colégio
+              </a>
+            </li>
+            <li class="nav-item fw-bold me-2">
+              <a class="nav-link" id="corvinal-menu" href="#corvinal"
+                ><img
+                  class="me-2"
+                  src="./icons/corvo.png"
+                  alt=""
+                  width="30px"
+                />Corvinal</a
+              >
+            </li>
+            <li class="nav-item fw-bold me-2">
+              <a class="nav-link" href="#grifinoria" id="grifinoria-menu"
+                ><img
+                  class="me-2"
+                  src="./icons/griffin.png"
+                  alt=""
+                  width="30px"
+                />Grifinória</a
+              >
+            </li>
+            <li class="nav-item fw-bold me-2">
+              <a class="nav-link" href="#lufalufa" id="lufalufa-menu"
+                ><img
+                  class="me-2"
+                  src="./icons/texugo.png"
+                  alt=""
+                  width="30px"
+                />Lufa-Lufa</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#sonserina" id="sonserina-menu"
+                ><img
+                  class="me-2"
+                  src="./icons/cobra.png"
+                  alt=""
+                  width="30px"
+                />Sonserina</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+      <section id="sobre-nos">
+        <div class="carousel slide" id="carrossel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img
+                src="https://images.ctfassets.net/usf1vwtuqyxm/6JkIGzViBGo26EECwgiKEK/0534a67c70148210d63a881d7e22c557/WB_F5_HagridsHutExterior_UmbridgeLeaving_PumpkinPatch_HP5-FX-00368r.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="https://www.alucare.fr/wp-content/uploads/2023/02/La-Salle-sur-demande-dans-Hogwarts-Legacy.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="https://pbs.twimg.com/media/EiEeKyuWAAQyIix?format=jpg&name=4096x4096"
+                alt=""
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carrossel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carrossel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carrossel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carrossel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carrossel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  class="d-block w-100 h-100 rounded"
+                  src="https://i0.wp.com/www.disneypoint.com/wp-content/uploads/2023/05/Disney-Point-Blog-Castelo-de-Hogwarts.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-6">
+                <h2 class="section-title">
+                  Sobre <span class="text-sobre">o colégio</span>
+                </h2>
+                <p>
+                  A Escola de Magia e Bruxaria de Hogwarts, fundada há mais de
+                  mil anos, é um renomado centro de educação mágica, dedicado ao
+                  desenvolvimento de jovens bruxos e bruxas.
+                </p>
+                <h3 class="section-title">
+                  Sobre <span class="text-sobre">o espaço</span>
+                </h3>
+                <p>
+                  A Escola de Magia e Bruxaria de Hogwarts é mais do que apenas
+                  uma instituição de ensino; é um lugar onde a magia ganha vida
+                  em cada canto do seu majestoso castelo e terrenos encantados.
+                </p>
+                <ul>
+                  <li>Salão Principal</li>
+                  <li>Biblioteca de Hogwarts</li>
+                  <li>Sala Precisa</li>
+                  <li>Estufas de Herbologia</li>
+                  <li>Campo de Quadribol</li>
+                  <li>Lagos e Florestas Encantadas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="espacos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">
+              Nossos <span class="text-sobre">espaços</span>
+            </h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <img
+                src="https://pm1.aminoapps.com/6839/f2bb97d4f8d8b70b8d90c856493d7fddf3a5f241v2_00.jpg"
+                alt=""
+                class="img-espaco d-block rounded mb-2"
+              />
+              <h3 class="section-title text-sobre fs-4">
+                <img width="30px" src="./img/reuniao.png" alt="" />
+                Salão Principal
+              </h3>
+              <p>
+                Um salão grandioso onde todos se reúnem para refeições,
+                cerimônias e festividades, com seu teto encantado que reflete o
+                céu lá fora.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://img.freepik.com/fotos-premium/a-biblioteca-de-harry-potter_902639-13214.jpg"
+                alt=""
+                class="img-espaco d-block rounded mb-2"
+              />
+              <h3 class="section-title text-sobre fs-4">
+                <img width="30px" src="./img/biblioteca.png" alt="" />
+                Biblioteca
+              </h3>
+              <p>
+                Um vasto repositório de livros mágicos e conhecimentos arcanos,
+                perfeito para estudos e pesquisa.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://www.esports.net/br/wp-content/uploads/sites/3/2023/10/sala-precisa-hogwarts-legacy-onde-fica-e-como-achar-2023.webp"
+                alt=""
+                class="img-espaco d-block rounded mb-2"
+              />
+              <h3 class="section-title text-sobre fs-4">
+                <img width="30px" src="./img/apresentacao.png" alt="" /> Sala
+                Precisa
+              </h3>
+              <p>
+                Uma sala mágica que aparece quando alguém precisa dela,
+                adaptando-se a qualquer necessidade, seja para treino, estudos
+                ou momentos de reflexão.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://lh6.googleusercontent.com/proxy/fa8MWv519JWCIwVkuNy0SalL1ucFjeLYJF8RcbBcxjtbmMlZCGMdFENRD29I5_GBrBaDtjQmy-WP2yQHaoweeMCQSRe8E8vzqEmxeXJ3gHawx6wSCWN_CSq9Aag"
+                alt=""
+                class="img-espaco d-block rounded mb-2"
+              />
+              <h3 class="section-title text-sobre fs-4">
+                <img width="30px" src="./img/estufa.png" alt="" />
+                Estufas de Herbologia
+              </h3>
+              <p>
+                Espaços verdes exuberantes onde se aprende sobre plantas mágicas
+                e suas propriedades.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://i0.wp.com/animagos.com.br/wp-content/uploads/2023/04/quidditch-game.png?fit=810%2C422&ssl=1"
+                alt=""
+                class="img-espaco d-block rounded mb-2"
+              />
+              <h3 class="section-title text-sobre fs-4">
+                <img width="30px" src="./img/quadra-de-basquete.png" alt="" />
+                Campo de Quadribol
+              </h3>
+              <p>
+                Um campo de esportes onde os alunos podem treinar e competir no
+                emocionante jogo de Quadribol.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://pm1.aminoapps.com/6629/05af11bc442f751b9f67fd4e79841dff6d6ca9fe_hq.jpg"
+                alt=""
+                class="img-espaco d-block rounded mb-2"
+              />
+              <h3 class="section-title text-sobre fs-4">
+                <img width="30px" src="./img/floresta-tropical.png" alt="" />
+                Lagos e Florestas Encantadas
+              </h3>
+              <p>
+                Áreas ao ar livre para exploração e aventuras, ricas em
+                criaturas mágicas e mistérios naturais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="casas" class="pt-5 pb-5">
+        <div class="">
+          <div class="row">
+            <h2 class="section-title text-center">
+              Nossas <span class="text-sobre">casas</span>
+            </h2>
+          </div>
+          <div class="row mt-4">
+            <div class=" casa corvinal col-12">
+              <div class="casas-text">
+                <img width="130px" src="https://i.pinimg.com/originals/fd/b2/80/fdb2806895fa21b8367bdace96ef4aa2.png" alt="">
+                <h3 id="corvinal" class="section-title">Corvinal</h3>
+                <img width="130px" src="https://i.pinimg.com/originals/fd/b2/80/fdb2806895fa21b8367bdace96ef4aa2.png" alt="">
+              </div>
+              <p>Corvinal preza pela sabedoria, criatividade e o desejo de aprender. Fundada por Rowena Ravenclaw, esta casa é lar para aqueles que buscam conhecimento e têm um espírito criativo. O símbolo da Corvinal é uma águia, representando a visão e a sabedoria. Suas cores são azul e bronze. O salão comunal da Corvinal está situado na Torre da Corvinal, com janelas grandes que oferecem vistas espetaculares e um ambiente de estudo tranquilo.</p>
+              <ul>
+                <li><strong>Valores:</strong> Sabedoria, criatividade, desejo de aprender</li>
+                <li><strong>Simbolo:</strong> Águia</li>
+                <li><strong>Cores:</strong> Azul e bronze</li>
+              </ul>
+            </div>
+            <div class=" casa grifinoria col-12">
+              <div class="casas-text">
+                <img width="100px" src="https://i.pinimg.com/originals/d6/25/86/d625860a4b76ab8febeabb7e29f6cd04.gif" alt="">
+                <h3 id="grifinoria" class="section-title">Grifinória</h3>
+                <img width="100px" src="https://i.pinimg.com/originals/d6/25/86/d625860a4b76ab8febeabb7e29f6cd04.gif" alt="">
+              </div>
+              <p>A Casa Grifinória é conhecida por valorizar a coragem, a bravura e a determinação. Fundada por Godric Gryffindor, esta casa acolhe aqueles que não têm medo de enfrentar desafios e estão sempre prontos para defender o que é certo. O símbolo da Grifinória é um leão, e suas cores são vermelho e dourado. O salão comunal da Grifinória está localizado na Torre da Grifinória e é um local acolhedor, decorado com tapeçarias e mobiliário confortável.</p>
+              <ul>
+                <li><strong>Valores:</strong> Coragem, bravura, determinação</li>
+                <li><strong>Simbolo:</strong> Leão</li>
+                <li><strong>Cores:</strong> Vermelho e dourado</li>
+              </ul>
+            </div>
+            <div class=" casa lufalufa col-12">
+              <div class="casas-text">
+                <img width="130px" src="https://i.pinimg.com/originals/cb/ca/33/cbca3326ddf5c9e45ae5e0339a3e866a.png" alt="">
+                <h3 id="lufalufa" class="section-title">Lufa-Lufa</h>
+                <img width="130px" src="https://i.pinimg.com/originals/cb/ca/33/cbca3326ddf5c9e45ae5e0339a3e866a.png" alt="">
+              </div>
+              <p>Lufa-Lufa é a casa que valoriza a lealdade, a paciência e o trabalho árduo. Fundada por Helga Hufflepuff, esta casa é conhecida por acolher todos e qualquer um que demonstre uma forte ética de trabalho e um coração gentil. O símbolo da Lufa-Lufa é um texugo, representando a perseverança e a dedicação. Suas cores são amarelo e preto, e o salão comunal da Lufa-Lufa está localizado perto das cozinhas de Hogwarts, proporcionando um ambiente caloroso e acolhedor.</p>
+              <ul>
+                <li><strong>Valores:</strong> Lealdade, paciência, trabalho árduo</li>
+                <li><strong>Simbolo:</strong> Texugo</li>
+                <li><strong>Cores:</strong> Amarelo e preto</li>
+              </ul>
+            </div>
+            <div class=" casa sonserina col-12">
+              <div class="casas-text">
+                <img width="110px" src="https://i.pinimg.com/originals/71/60/44/716044586b9ea4450d092820fa8db1e4.png" alt="">
+                <h3 id="sonserina" class="section-title ">Sonserina</h3>
+                <img width="110px" src="https://i.pinimg.com/originals/71/60/44/716044586b9ea4450d092820fa8db1e4.png" alt="">
+              </div>
+              <p>A Casa Sonserina valoriza a ambição, a astúcia e a determinação. Fundada por Salazar Slytherin, esta casa acolhe aqueles que têm grande potencial e não têm medo de usar quaisquer meios para alcançar seus objetivos. O símbolo da Sonserina é uma serpente, simbolizando a astúcia e a adaptabilidade. Suas cores são verde e prata, e o salão comunal da Sonserina está localizado nas masmorras, com uma atmosfera misteriosa e sofisticada.</p>
+              <ul>
+                <li><strong>Valores:</strong> Ambição, astúcia, determinação</li>
+                <li><strong>Simbolo:</strong> Serpente</li>
+                <li><strong>Cores:</strong> Verde e prata</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="alunos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">Alunos <span class="text-sobre">Destaque</span></h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-alunos">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#alunosCorvinal" class="nav-link fw-bold text-start text-sobre active">Corvinal</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#alunosGrifinoria" class="nav-link fw-bold text-start text-sobre">Grifinória</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#alunosLufalufa" class="nav-link fw-bold text-start text-sobre">Lufa-Lufa</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#alunosSonserina" class="nav-link fw-bold text-start text-sobre">Sonserina</button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="alunosCorvinal">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://i.pinimg.com/originals/e1/a9/09/e1a90915efcaa6b40a306e56adea20a8.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Helena Ravenclaw</h5>
+                      <p>Helena Ravenclaw, também conhecida como a Dama Cinzenta, é a filha de Rowena Ravenclaw, uma das fundadoras de Hogwarts. Ela é o fantasma residente da Casa Corvinal, conhecida por sua beleza e sua triste história envolvendo a diadema perdida de sua mãe.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://pm1.aminoapps.com/6296/5c51e6b2267484700f8816043749bd0adf2745b9_hq.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Quirino Quirrell</h5>
+                      <p>Quirino Quirrell foi o professor de Defesa Contra as Artes das Trevas em Hogwarts durante o primeiro ano de Harry Potter. Embora inicialmente parecesse tímido e nervoso, Quirrell escondia um segredo sombrio: ele estava possuído por Lord Voldemort, que usava seu corpo para tentar roubar a Pedra Filosofal.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://s3.glbimg.com/v1/AUTH_35862ca5c6ab48b992baf1f1b4f7062e/m-extra-globo-com/incoming/16309630-54f-3eb/w367h550-PROP/luna-lovegood-2.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Luna Lovegood</h5>
+                      <p>Luna Lovegood é uma aluna da Corvinal conhecida por sua excentricidade e visão única do mundo. Filha do editor do jornal "O Pasquim", Luna é leal, corajosa e uma amiga fiel, desempenhando um papel crucial na luta contra Voldemort ao lado de Harry Potter e seus amigos.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://emlugarnenhumdotcom.wordpress.com/wp-content/uploads/2015/05/landscape-1431449866-mcdhapo-ec548.jpg?w=1200" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Murta Warren</h5>
+                      <p>Murta Warren, mais conhecida como Murta Que Geme, é o fantasma residente do banheiro feminino do segundo andar de Hogwarts. Ela foi uma aluna da Corvinal que morreu tragicamente ao ser atacada pelo basilisco durante sua estadia na escola, e agora assombra o banheiro onde encontrou seu fim.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://i.pinimg.com/236x/b2/cc/a3/b2cca3fe14de5c67392b4d54403c5225.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Sibila Trelawney</h5>
+                      <p>Sibila Trelawney é a professora de Adivinhação em Hogwarts, conhecida por seu estilo excêntrico e dramático. Descendente de uma famosa vidente, Cassandra Trelawney, Sibila fez algumas profecias significativas, incluindo a profecia sobre a queda de Voldemort, apesar de muitas vezes ser vista como uma impostora por seus colegas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="alunosGrifinoria">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://midias.correiobraziliense.com.br/_midias/jpg/2023/11/01/640x853/1_o_personagem_harry_potter-31034050.jpg?20231101134149?20231101134149" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Harry Potter</h5>
+                      <p>Harry Potter é um jovem bruxo famoso por ter sobrevivido a um ataque mortal de Lord Voldemort quando bebê, ficando conhecido como "O Menino que Sobreviveu". Aluno da Grifinória em Hogwarts, ele enfrenta muitos desafios e perigos ao longo de sua vida, tornando-se um símbolo de coragem e resistência na luta contra as forças das trevas.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://f7a75c67e6.cbaul-cdnwnd.com/19f0df26d6909ae2fa719a69eb9b5206/200000412-dd0e4de07c/dumbledore.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Albus Dumbledore</h5>
+                      <p>Albus Dumbledore, um dos maiores bruxos de todos os tempos, foi diretor de Hogwarts e líder da Ordem da Fênix. Conhecido por sua sabedoria, bondade e poder, ele desempenhou um papel crucial na derrota de Voldemort.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEIG_tT1Fg_DcmsAnXXUtwjI7HWBTlzjv6SHQovQZDAYGca_CnPFG3WY8dd9CgXvc1LoeQLPbYEhO5bLwvAKcDHhbnoGPkgi2kdvEqrDnB8MgPi0HodfjY7hdw_RQQgGaX2_8XBFKhJbkE/s400/Hermione_Granger.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Hermione Granger</h5>
+                      <p>
+                        Hermione Granger, uma das mais brilhantes estudantes de Hogwarts, é conhecida por sua inteligência, determinação e lealdade. Melhor amiga de Harry Potter e Ron Weasley, ela desempenhou um papel vital na luta contra Voldemort e suas forças das trevas.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZ0T3cxVMNZ8lcvDcZ7AjjRezYx4Mwtw9DVNJ1OUuAeYYePojfZDULFhxfOzwqfh28qUotRInm8N6wphH1w9-GIExxEjnYi5B8W6ETiSD17M4vX_HvYXk8U_qOQOewSx50NtsuDfa8_od/s1600/check-out-what-ron-weasley-has-been-doing-since-harry-potter-218059.png" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Ron Weasley</h5>
+                      <p>Ron Weasley, um dos melhores amigos de Harry Potter em Hogwarts, é conhecido por sua lealdade, coragem e senso de humor. Membro da família Weasley, ele enfrentou muitos desafios ao lado de Harry e Hermione, contribuindo para a derrota de Voldemort e se destacando como um bravo membro da Grifinória.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/en/6/6b/Sirius_Black.jpeg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Sirius Black</h5>
+                      <p>Sirius Black, um dos personagens complexos de Harry Potter, foi um membro da família Black que desafiou as crenças de sua linhagem ao se aliar aos Potter e à Ordem da Fênix. Condenado injustamente por crimes que não cometeu, Sirius lutou contra as trevas ao lado de seus amigos e foi um protetor dedicado de Harry Potter.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="alunosLufalufa">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://i.pinimg.com/236x/ed/9c/fb/ed9cfb1505b4cc3dcacc5b9cbdbe160a.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Ninfadora Tonks</h5>
+                      <p>Ninfadora Tonks, também conhecida como Tonks, foi uma bruxa metamorfomaga que se destacou como membro da Ordem da Fênix. Conhecida por sua habilidade de mudar de aparência e seu espírito vibrante, Tonks mostrou grande coragem e dedicação na luta contra Voldemort, sacrificando sua vida pela causa da justiça e da liberdade mágica.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://pm1.aminoapps.com/6310/b8d8890ab6eb00f7f6db25806b85a579bb100f06_hq.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Cedrico Diggory</h5>
+                      <p>Cedrico Diggory, um aluno exemplar da Lufa-Lufa em Hogwarts, era conhecido por sua integridade, habilidades atléticas e gentileza. Participante do Torneio Tribruxo, Cedrico demonstrou coragem e fair play, tornando-se um símbolo de orgulho para sua casa. Sua trágica morte nas mãos de Lord Voldemort durante o torneio deixou uma marca duradoura na comunidade bruxa, lembrando a todos da fragilidade da vida e da importância de valores como justiça e coragem.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://pbs.twimg.com/profile_images/799625382496452608/FYzHEmQY_400x400.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Newton Scamander</h5>
+                      <p>
+                        Newton Scamander, mais conhecido como Newt Scamander, é um renomado magizoologista e autor do livro "Animais Fantásticos e Onde Habitam". Aventureiro e apaixonado por criaturas mágicas, Newt dedicou sua vida a estudar e proteger esses seres, viajando pelo mundo em busca de novas espécies. Sua abordagem compassiva e habilidades únicas o tornaram uma figura respeitada na comunidade bruxa, influenciando gerações de bruxos e bruxas a apreciar e preservar a diversidade do mundo mágico.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://midias.correiobraziliense.com.br/_midias/jpg/2024/03/10/1000x1000/1_warner_bros-35364696.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Pomona Sprout</h5>
+                      <p>Pomona Sprout, a dedicada professora de Herbologia em Hogwarts, é conhecida por sua paixão pelas plantas mágicas e seu compromisso com o ensino dos alunos. Como chefe da Casa Lufa-Lufa, Sprout é admirada por sua bondade e habilidades botânicas excepcionais, cultivando não apenas plantas, mas também valores de trabalho árduo e respeito pela natureza entre seus estudantes.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="alunosSonserina">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://www.publishnews.com.br/estaticos/uploads/2022/07/ydzasmUmBsBRpHiWcdaCpTt7h26uOkI6cQ1hSmsyR8n2zMTLhYkqu1WqrK5EW6ZG9LFGQqQEKJt0BMrn.jpg" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Draco Malfoy</h5>
+                      <p>Draco Malfoy, um aluno da Sonserina em Hogwarts, é conhecido por sua linhagem de sangue pura e rivalidade com Harry Potter. Inicialmente influenciado pelas crenças familiares sobre pureza sanguínea, Draco enfrenta dilemas morais durante sua jornada escolar, refletindo sobre poder e lealdade em meio aos turbulentos anos da Segunda Guerra Bruxa.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 alunos-destaque">
+                      <img class="d-block w-100" src="https://images.ctfassets.net/usf1vwtuqyxm/toxlayPDePtX8yx2wvWun/b65f6acd9087031b1ff39461d8f22d0a/severus-snape_2_1800x1248.png" alt="">
+                      <h5 class="text-sobre mt-2 fw-bold">Severus Snape</h5>
+                      <p>
+                        Severus Snape, mestre de poções e membro da Ordem da Fênix, é um personagem complexo de Hogwarts. Inicialmente visto como alinhado às trevas devido ao seu passado sombrio, sua verdadeira lealdade a Dumbledore e seu sacrifício pessoal revelam sua profundidade e tragédia, desempenhando um papel crucial na derrota de Voldemort.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="fale-conosco" class="mt-4 pt-3">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5">
+              Faça sua <span class="text-sobre">inscrição</span>
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <form action="">
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-sobre" for="name"
+                    >Seu nome</label
+                  >
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-sobre" for="email"
+                    >Seu email</label
+                  >
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-sobre" for="endereco"
+                    >Endereço</label
+                  >
+                  <input
+                    type="text"
+                    name=""
+                    id="endereco"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-sobre" for="mensagem"
+                    >Sua mensagem</label
+                  >
+                  <textarea
+                    class="form-control"
+                    style="max-height: 100px; min-height: 50px;" rows="5"
+                    name=""
+                    id="mensagem"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="section-title fs-4 text-sobre">
+                  <i class="bi bi-hand-thumbs-up-fill"></i> Redes sociais
+                </h3>
+                <ul class="social-links">
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-facebook text-sobre"></i>
+                    </a>
+                  </li>
+                  <li class="fs-5 ms-2 me-2">
+                    <a href="#">
+                      <i class="bi bi-whatsapp text-sobre"></i>
+                    </a>
+                  </li>
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-instagram text-sobre"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row mt-4">
+                <h3 class="section-title fs-4 text-sobre">
+                  <i class="bi bi-cursor-fill"></i>
+                  Endereço
+                </h3>
+                <p>
+                  Plataforma 9&nbsp;&frac34; - Escócia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+  "></script>
+  </body>
+</html>
