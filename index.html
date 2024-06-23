@@ -493,56 +493,24 @@
           </div>
           <div class="row">
             <div class="col-md-7">
-              <form action="">
+              <form action="" id="my-form">
                 <div class="mb-3">
-                  <label class="form-label fw-bold text-sobre" for="name"
-                    >Seu nome</label
-                  >
-                  <input
-                    type="text"
-                    name=""
-                    id="name"
-                    class="form-control"
-                    required
-                  />
+                  <label class="form-label fw-bold text-sobre" for="name">Seu nome completo</label>
+                  <input type="text" id="name" class="form-control" required />
                 </div>
                 <div class="mb-3">
-                  <label class="form-label fw-bold text-sobre" for="email"
-                    >Seu email</label
-                  >
-                  <input
-                    type="email"
-                    name=""
-                    id="email"
-                    class="form-control"
-                    required
-                  />
+                  <label class="form-label fw-bold text-sobre" for="email">Seu email</label>
+                  <input type="email" id="email" class="form-control" required />
                 </div>
                 <div class="mb-3">
-                  <label class="form-label fw-bold text-sobre" for="endereco"
-                    >Endereço</label
-                  >
-                  <input
-                    type="text"
-                    name=""
-                    id="endereco"
-                    class="form-control"
-                    required
-                  />
+                  <label class="form-label fw-bold text-sobre" for="endereco">Endereço</label>
+                  <input type="text" id="endereco" class="form-control" required />
                 </div>
                 <div class="mb-3">
-                  <label class="form-label fw-bold text-sobre" for="mensagem"
-                    >Sua mensagem</label
-                  >
-                  <textarea
-                    class="form-control"
-                    style="max-height: 100px; min-height: 50px;" rows="5"
-                    name=""
-                    id="mensagem"
-                    required
-                  ></textarea>
+                  <label class="form-label fw-bold text-sobre" for="mensagem">Sua mensagem</label>
+                  <textarea class="form-control" style="max-height: 100px; min-height: 50px;" rows="5" id="mensagem" required></textarea>
                 </div>
-                <button type="submit" class="btn fw-bold">Enviar</button>
+                <button id="button-submit" type="submit" class="btn fw-bold">Enviar</button>
               </form>
             </div>
             <div class="col-md-5">
@@ -576,6 +544,7 @@
                 <p>
                   Plataforma 9&nbsp;&frac34; - Escócia
                 </p>
+                <p id="register__success">Cadastro realizado com sucesso!</p>
               </div>
             </div>
           </div>
@@ -584,5 +553,6 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
   "></script>
+  <script src="./main.js"></script>
   </body>
 </html>

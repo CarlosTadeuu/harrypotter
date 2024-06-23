@@ -152,3 +152,19 @@ p {
 #fale-conosco label {
   font-size: 20px;
 }
+#register__success {
+  justify-content: center;
+  background-color: #33eedd;
+  border-radius: 8px;
+  padding: 2.4rem;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  display: none;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+.esconde {
+  display: none;
+}
